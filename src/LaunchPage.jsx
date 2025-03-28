@@ -11,7 +11,7 @@ function LaunchPage() {
     console.log("Launch page initiated");
 
     // Simulating redirection to callback
-    navigate("/callback");
+    //navigate("/callback");
   }, [navigate]);
 
   return (
