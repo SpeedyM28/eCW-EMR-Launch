@@ -17,7 +17,7 @@ function App() {
     const params = new URLSearchParams();
     params.append('grant_type', 'authorization_code');
     params.append('code', code); // The code you received in the URL
-    params.append('redirect_uri', 'https://your-github-pages-url.com/'); // Your redirect URI
+    params.append('redirect_uri', 'https://speedym28.github.io/eCW-EMR-launch/'); // Your redirect URI
     params.append('client_id', 'AjmnHUHBbfyIs8grLV3on7gT8pftZs4xh7tmqw7gemI'); // Your client ID
     params.append('client_secret', ''); // Your client secret
 
