@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-function Callback() {
+function CallbackPage() {
   const [tokenData, setTokenData] = useState(null);
   const navigate = useNavigate();
 
@@ -68,4 +68,4 @@ function Callback() {
   );
 }
 
-export default Callback;
+export default CallbackPage;

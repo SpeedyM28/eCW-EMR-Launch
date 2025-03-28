@@ -1,18 +1,13 @@
-import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import './App.css';
-import LaunchPage from './LaunchPage.jsx';
-import Callback from './Callback.jsx';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import LaunchPage from "./LaunchPage";
+import CallbackPage from "./CallbackPage";
 
 function App() {
   return (
     <Router>
       <Routes>
-        {/* Route for the Launch URL */}
         <Route path="/launch" element={<LaunchPage />} />
-        
-        {/* Route for the Callback URL */}
-        <Route path="/callback" element={<Callback />} />
+        <Route path="/callback" element={<CallbackPage />} />
       </Routes>
     </Router>
   );
