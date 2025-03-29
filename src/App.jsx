@@ -4,12 +4,12 @@ import CallbackPage from "./CallbackPage";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/eCW-EMR-launch">
       <Routes>
         <Route path="/launch" element={<LaunchPage />} />
         <Route path="/callback" element={<CallbackPage />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
